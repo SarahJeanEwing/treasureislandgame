@@ -26,9 +26,9 @@ print("Your mission is to find the treasure.")
 question1 = input('\nYou\'re at a cross road. Where do you want to go? Type "left" or "right"\n').lower()
 
 if question1 == "left":
-  question2 = input('\nYou\'ve come to a lake. There is an island in the middle of the   lake. Type "wait" to wait for a boat. Type "swim" to swim across.\n').lower()
+  question2 = input('\nYou\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.\n').lower()
   if question2 == "wait":
-    question3 = input('\nYou arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?\n').lower()
+    question3 = input('\nYou arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which color do you choose?\n').lower()
     if question3 == "yellow":
       print('\nYou found the treasure! You Win!')
     elif question3 == "red":
